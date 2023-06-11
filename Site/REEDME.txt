@@ -1,7 +1,119 @@
-Vous trouverez dans ce dossier l'entièreté du site réalisé spécialament pour CDD.
+Vous trouverez dans ce dossier l'entièreté du FRONTEND site réalisé spécialament pour CDD. Vous retrouverz également dans ce même fichier ma procédure dans la réalisation de ce site.
 
 Le code source est disponible dans son intégralité. Le jeu est également disponible en un .exe
     💻 - HTML5, CSS3, JS
-    🕐 - X jour X heure X minute
+    🕐 - 0 jour 1 heure 0 minute
     
 Ce site est une amélioration de mon point de vu du site https://sokuu.store
+
+🔎 Analyse -
+Main Page -
+
+Div "Header" :
+    Div "Logo":
+        Logo
+    Nav :
+        -Accueil
+        -Catalogue
+    Div "Icons" :
+        Button :
+            -Search
+        Balise lien :
+            -Compte
+            -Panier
+
+Div "Page container":
+    Hero Banner :
+        -Bannière
+        -Button :
+            -Écouter
+    Div "Shopify" :
+        -Div "Grid" :
+            -Div "Grid Item" :
+                -Obj. à vendre
+            -Div "Grid Item" :
+                -Obj. à vendre
+    Div "Shopify Footer" :
+        -Div "Newsletter"
+        -Div "À propos"
+        -Div "Lien rapide"
+        -Div "Payment solution"
+    Div "Social" :
+        -Instagram
+        -Youtube
+
+Login Page -
+Identique à la Main Page sauf "Page Container"
+Div "Page Container" :
+    -Login :
+        -Input :
+            -Username
+            -Password
+         -Button :
+            -Se connecter
+         -Lien :
+            -Mot de passe oblié ?
+            -Créer un compte
+    Div "Shopify Footer" :
+        -Div "Newsletter"
+        -Div "À propos"
+        -Div "Lien rapide"
+        -Div "Payment solution"
+    Div "Social" :
+        -Instagram
+        -Youtube
+        
+Panier Page -
+Identique à la Main Page sauf "Page Container"
+Div "Page Container" :
+    -Header :
+        -h1 "Votre panier"
+        -p, savoir le contenus de son panier
+        -a "POURSUIVRE VOS ACHATS"
+    Div "Shopify Footer" :
+        -Div "Newsletter"
+        -Div "À propos"
+        -Div "Lien rapide"
+        -Div "Payment solution"
+    Div "Social" :
+        -Instagram
+        -Youtube
+
+Catalogue Page -
+Div "Page container":
+    Div "Header" :
+        -Div "Grid" :
+            -h1 "Produits"
+        -Div "Filtres" :
+            -Label "Filtrer par" :
+                -Select :
+                    -Option :
+                        -all
+                        -album
+                        -cd
+                        -cd-sourire-un-peu-mieux
+            -Div "Item count" :
+                -Span "class="filters-toolbar__product-count"
+    Div "Collection" :
+        -ul "View items" :
+            -li, affiche une image du produit
+    Div "Shopify Footer" :
+        -Div "Newsletter"
+        -Div "À propos"
+        -Div "Lien rapide"
+        -Div "Payment solution"
+    Div "Social" :
+        -Instagram
+        -Youtube
+
+Info :
+    Couleur arrière plan : Noir (#000000)
+    Couleur des textes : Bleu (#566be6)
+
+🖥️ Conception -
+1ère étape :
+Récupérer les assets nécéssaires à la réalisation du site
+2e étape :
+Réaliser toute la structure de la page d'accueil :
+    -Header :
+        
