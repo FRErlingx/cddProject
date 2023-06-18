@@ -2,4 +2,4 @@ Vous trouverez dans ce dossier l'entièreté du jeu réalisé spécialament pour
 
 Le code source est disponible dans son intégralité. Le jeu est également disponible en un .exe
     💻 - Unity 2021.3.13f1, C#
-    🕐 - 0 jour 0 heure 0 minute
+    🕐 - 0 jour 3 heures 30 minutes
